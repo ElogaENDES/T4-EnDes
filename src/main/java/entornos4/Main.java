@@ -61,13 +61,13 @@ public class Main {
                 //modificacion 2//
                    try {
 
-                    System.out.println(" Modificación 2");
+                    System.out.println(" modificación 2");
 
                      bag.Actualizarbono(0);
 
                  } catch (Exception e) {
 
-                           System.out.print("no tiene saldo");
+                           System.out.print("No tiene saldo");
 
                             }
     }
