@@ -13,12 +13,14 @@ public class eCesta {
 
   
 
-    /* Constructor sin argumentos */
-
+    /* Constructor sin argumentos  */
+//Se indica que si el bobo es inferior a 10 se imprima en pantalla "recargar saldo"//
     public eCesta ()
 
     {
-
+if (bono<10){
+                System.out.println("recargar saldo");
+    }
     }
 
     /*Constructor con parámetros*/
@@ -155,6 +157,10 @@ public class eCesta {
      */
     public void setUsuario(String usuario) {
         this.usuario = usuario;
+    }
+
+    void Actualizarbono(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }
