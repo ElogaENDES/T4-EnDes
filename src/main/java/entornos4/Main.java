@@ -58,6 +58,18 @@ public class Main {
                            System.out.print("Fallo…….");
 
                             }
+                //modificacion 2//
+                   try {
+
+                    System.out.println(" Modificación 2");
+
+                     bag.Actualizarbono(0);
+
+                 } catch (Exception e) {
+
+                           System.out.print("no tiene saldo");
+
+                            }
     }
 
 }

@@ -14,13 +14,11 @@ public class eCesta {
   
 
     /* Constructor sin argumentos  */
-//Se indica que si el bobo es inferior a 10 se imprima en pantalla "recargar saldo"//
+
     public eCesta ()
 
     {
-if (bono<10){
-                System.out.println("recargar saldo");
-    }
+
     }
 
     /*Constructor con parámetros*/
